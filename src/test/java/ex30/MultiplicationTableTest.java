@@ -5,5 +5,7 @@
 
 package ex30;
 
-public class App {
+public class MultiplicationTableTest
+{
+    //There is no need to test anything???
 }
