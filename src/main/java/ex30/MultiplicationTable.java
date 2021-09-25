@@ -13,7 +13,7 @@ public class MultiplicationTable
         createTable(tableSize);
     }
 
-    public static void createTable(int size)
+    public static int createTable(int size)
     {
         for(int i = 1; i <= size; i++)
         {
@@ -23,5 +23,8 @@ public class MultiplicationTable
             }
             System.out.println();
         }
+
+        //1 indicates successful completion
+        return 1;
     }
 }

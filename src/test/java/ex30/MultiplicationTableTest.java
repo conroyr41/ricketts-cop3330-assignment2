@@ -5,7 +5,15 @@
 
 package ex30;
 
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+
 public class MultiplicationTableTest
 {
-    //There is no need to test anything???
+    @Test
+    public void createTable_TableSizeOf12_1()
+    {
+        MultiplicationTable multiplicationTable = new MultiplicationTable();
+        Assertions.assertEquals(1,multiplicationTable.createTable(12));
+    }
 }
