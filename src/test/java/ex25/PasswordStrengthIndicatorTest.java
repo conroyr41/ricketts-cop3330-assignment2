@@ -5,7 +5,6 @@
 
 package ex25;
 
-import ex24.Anagram;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
