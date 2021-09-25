@@ -24,6 +24,12 @@ public class NumberGuess
                 System.out.println("Enter the difficulty level (1, 2, or 3):");
                 scan = new Scanner(System.in);
                 difficulty = Integer.parseInt(scan.next());
+
+                if(difficulty < 1 || difficulty > 3)
+                {
+                    System.out.println("You can only choose 1, 2, or 3!");
+                    difficulty = 0;
+                }
             }
             catch(Exception e)
             {
