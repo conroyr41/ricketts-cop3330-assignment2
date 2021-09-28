@@ -3,7 +3,8 @@
  *  Copyright 2021 Conroy Ricketts
  */
 
-package ex35;
+package ex37;
 
-public class App {
+public class PasswordGenTest
+{
 }
